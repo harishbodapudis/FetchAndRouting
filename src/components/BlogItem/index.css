@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+
+.author-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.topic-img {
+  height: 180px;
+  width: 300px;
+  border-radius: 5px;
+}
+.course-container {
+  list-style-type: none;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+.course-details-container {
+  display: flex;
+  flex-direction: row;
+}
+.links {
+  text-decoration: none;
+}
+.topic {
+  color: #8e8e8e;
+  font-family: roboto;
+}
+.title {
+  color: #000000;
+}
+.author {
+  color: #8e8e8e;
+  font-family: roboto;
+}
+.author-avatar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.course-data {
+  margin-left: 10px;
+}
+
+@media (width < 768px) {
+  .course-details-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .topic-img {
+    height: 180px;
+    width: 350px;
+    border-radius: 5px;
+  }
+}
